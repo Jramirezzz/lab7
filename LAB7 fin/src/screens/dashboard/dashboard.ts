@@ -11,7 +11,7 @@ const formData: Omit<Product, "id"> = {
   createdAt: "",
 };
 
-export default class Dashboard extends HTMLElement {
+export default class main extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
